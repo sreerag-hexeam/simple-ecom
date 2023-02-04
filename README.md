@@ -20,13 +20,11 @@ Copy the example env file and make the required configuration changes in the .en
 
 cp .env.example .env
 
-set APP_URL=
+set APP_URL=http://localhost:8000
 
 Generate a new application key
 
 php artisan key:generate
-
-set APP_URL=http://localhost:8000
 
 Run the database migrations (Set the database connection in .env before migrating)
 
